@@ -28,12 +28,14 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     ftpgetwindow.cpp \
-    ftpget.cpp
+    ftpget.cpp \
+    ftpmanager.cpp
 
 HEADERS += \
         mainwindow.h \
     ftpgetwindow.h \
-    ftpget.h
+    ftpget.h \
+    ftpmanager.h
 
 FORMS += \
         mainwindow.ui

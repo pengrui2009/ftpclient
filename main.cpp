@@ -5,8 +5,8 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    //MainWindow w;
-    FtpgetWindow w;
+    MainWindow w;
+    //FtpgetWindow w;
     w.show();
 
     return a.exec();
